@@ -98,7 +98,7 @@ kw_model = KeyBERT()
 keywords = kw_model.extract_keywords(doc)
 ```
 
-You can set `keyphrase_ngram_range` to set the length of the resulting keywords/keyphrases:
+You an set `keyphrase_ngram_range` to set the length of the resulting keywords/keyphrases:
 
 ```python
 >>> kw_model.extract_keywords(doc, keyphrase_ngram_range=(1, 1), stop_words=None)
